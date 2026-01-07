@@ -7,14 +7,14 @@ Product::Product(int Id, const QString& Name, double Price)
 {
 }
 
-int Product::GetId() const {
+int Product::getId() const {
     return id;
 }
 
-QString Product::GetName() const {
+QString Product::getName() const {
     return name;
 }
 
-double Product::GetPrice() const {
+double Product::getPrice() const {
     return price;
 }

@@ -11,9 +11,9 @@ public:
     Product() = delete;
     Product(int Id, const QString& Name, double Price);
 
-    int GetId() const;
-    QString GetName() const;
-    double GetPrice() const;
+    int getId() const;
+    QString getName() const;
+    double getPrice() const;
 
 private:
     int id{0};
