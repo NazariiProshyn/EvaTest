@@ -1,0 +1,9 @@
+# ninja log v6
+2	427	7894512847974831	EvaTest_autogen/timestamp	1fc9178e030a25bd
+2	427	7894512847974831	EvaTest_autogen/mocs_compilation.cpp	1fc9178e030a25bd
+2	427	7894512847974831	D:/Work/Eva/EvaTest/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/EvaTest_autogen/timestamp	1fc9178e030a25bd
+2	427	7894512847974831	D:/Work/Eva/EvaTest/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/EvaTest_autogen/mocs_compilation.cpp	1fc9178e030a25bd
+431	2217	7894512848490453	CMakeFiles/EvaTest.dir/EvaTest_autogen/mocs_compilation.cpp.obj	f885869eb821a55d
+440	2269	7894512848579639	CMakeFiles/EvaTest.dir/paymentwindow.cpp.obj	fa672c9cdea3ac58
+436	2269	7894512848535095	CMakeFiles/EvaTest.dir/main.cpp.obj	6b800e1d029970b4
+2269	2443	7894512866874992	EvaTest.exe	45a8becfe9d4b6a8
