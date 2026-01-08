@@ -20,8 +20,8 @@ EvaTest_autogen/timestamp: \
 	D:/Work/Eva/EvaTest/receiptitem.cpp \
 	D:/Work/Eva/EvaTest/receiptitem.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QHash \
+	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QList \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QString \
-	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QVector \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q17memory.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q20functional.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q20iterator.h \
@@ -146,7 +146,6 @@ EvaTest_autogen/timestamp: \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qutf8stringview.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvariant.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvarlengtharray.h \
-	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvector.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qversiontagging.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qxptype_traits.h \
 	D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qyieldcpu.h \

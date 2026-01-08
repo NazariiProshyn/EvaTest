@@ -21,16 +21,25 @@ public:
 
 private slots:
     void on_btnAddProduct_clicked();
+    void on_btnDltProduct_clicked();
+    void on_btnAddMoney_clicked();
+    void on_btnCancel_clicked();
+    void on_btnPay_clicked();
 
 private:
     Ui::PaymentWindow *ui;
-    QStringList headers{"Name", "Quantity", "Price", "Total"};
-    int columnCount{4};
+
+    QStringList headers{"ID", "Name", "Quantity", "Price", "Total"};
+
+    int columnCount{5};
 
     const Catalog catalog;// BD
+
     Receipt receipt;
 
     void setupTable();
+    void setupLabels();
     void updateUI();
+    void updateChange();
 };
 #endif // PAYMENTWINDOW_H

@@ -17,7 +17,7 @@ class Catalog
 public:
     Catalog() = default;
 
-    bool contains(int productHash) const;
+    bool    contains(int productHash) const;
     Product getProduct(int productHash) const;
 private:
     QHash<int, Product> products{

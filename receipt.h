@@ -3,7 +3,7 @@
 
 #pragma once
 
-#include <QVector>
+#include <QList>
 #include "ReceiptItem.h"
 
 class Receipt
@@ -16,11 +16,18 @@ public:
     void removeProduct(int productId);
 
     double totalAmount() const;
-
+    const  QList<ReceiptItem>& getItems() const;
+    void   addCash(double amount);
+    double getCash() const;
+    void   resetCash();
+    void   clear();
 private:
     int findItemIndex(int productId) const;
 
-    QVector<ReceiptItem> items;
+    QList<ReceiptItem> items;
+
+    const int MAXQUANTITY {99};
+    double    cash {0.0};
 };
 
 #endif // RECEIPT_H

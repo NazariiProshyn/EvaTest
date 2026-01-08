@@ -10,14 +10,24 @@ int Receipt::findItemIndex(int productId) const
     return -1;
 }
 
-void Receipt::addProduct(const Product& product, int quantity)
-{
-    int index = findItemIndex(product.getId());
-    if (index != -1) {
-        items[index].addQuantity(quantity);
-    } else {
-        items.append({ product, quantity });
+void Receipt::addProduct(const Product& p, int quantity) {
+    for (int i = 0; i < items.size(); ++i) {
+        if (items[i].getId() == p.getId()) {
+            int newQuantity = items[i].getQuantity() + quantity;
+
+            if (newQuantity > MAXQUANTITY) {
+                items[i].setQuantity(MAXQUANTITY);
+            } else {
+                items[i].setQuantity(newQuantity);
+            }
+            return;
+        }
     }
+
+    if (quantity > MAXQUANTITY) {
+        quantity = MAXQUANTITY;
+    }
+    items.append(ReceiptItem(p, quantity));
 }
 
 void Receipt::setQuantity(int productId, int quantity)
@@ -43,4 +53,25 @@ double Receipt::totalAmount() const
         total += items[i].getTotal();
     }
     return total;
+}
+
+const QList<ReceiptItem>& Receipt::getItems() const {
+    return items;
+}
+
+void Receipt::addCash(double amount) {
+    cash += amount;
+    }
+
+double Receipt::getCash() const {
+    return cash;
+}
+
+void Receipt::resetCash() {
+    cash = 0.0;
+}
+
+void Receipt::clear() {
+    items.clear();
+    cash = 0.0;
 }

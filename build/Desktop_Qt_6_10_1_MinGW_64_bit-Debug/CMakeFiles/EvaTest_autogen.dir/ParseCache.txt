@@ -15,8 +15,8 @@ D:/Work/Eva/EvaTest/paymentwindow.h
  mdp:D:/Work/Eva/EvaTest/paymentwindow.h
  mdp:D:/Work/Eva/EvaTest/receipt.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QHash
+ mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QList
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QString
- mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QVector
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q17memory.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q20functional.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q20iterator.h
@@ -141,7 +141,6 @@ D:/Work/Eva/EvaTest/paymentwindow.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qutf8stringview.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvariant.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvarlengtharray.h
- mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvector.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qversiontagging.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qxptype_traits.h
  mdp:D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qyieldcpu.h

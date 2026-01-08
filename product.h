@@ -11,14 +11,14 @@ public:
     Product() = default;
     Product(int Id, const QString& Name, double Price);
 
-    int getId() const;
+    int     getId() const;
     QString getName() const;
-    double getPrice() const;
+    double  getPrice() const;
 
 private:
-    int id{0};
+    int     id{0};
     QString name;
-    double price{0.0};
+    double  price{0.0};
 };
 
 #endif // PRODUCT_H
