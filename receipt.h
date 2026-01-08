@@ -16,7 +16,6 @@ public:
     void removeProduct(int productId);
 
     double totalAmount() const;
-    const QVector<ReceiptItem>& getItems() const;
 
 private:
     int findItemIndex(int productId) const;

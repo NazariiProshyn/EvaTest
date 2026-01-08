@@ -1,5 +1,12 @@
 D:/Work/Eva/EvaTest/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/EvaTest_autogen/EWIEGA46WW/moc_paymentwindow.cpp: D:/Work/Eva/EvaTest/paymentwindow.h \
   D:/Work/Eva/EvaTest/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/EvaTest_autogen/moc_predefs.h \
+  D:/Work/Eva/EvaTest/Product.h \
+  D:/Work/Eva/EvaTest/ReceiptItem.h \
+  D:/Work/Eva/EvaTest/catalog.h \
+  D:/Work/Eva/EvaTest/receipt.h \
+  D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QHash \
+  D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QString \
+  D:/Work/IDE/6.10.1/mingw_64/include/QtCore/QVector \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q17memory.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q20functional.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/q20iterator.h \
@@ -124,6 +131,7 @@ D:/Work/Eva/EvaTest/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/EvaTest_autogen/E
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qutf8stringview.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvariant.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvarlengtharray.h \
+  D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qvector.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qversiontagging.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Work/IDE/6.10.1/mingw_64/include/QtCore/qyieldcpu.h \

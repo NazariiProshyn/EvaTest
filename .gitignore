@@ -37,6 +37,8 @@ target_wrapper.*
 
 # QtCreator
 *.autosave
+*.user
+*.user.*
 
 # QtCreator Qml
 *.qmlproject.user
@@ -45,6 +47,12 @@ target_wrapper.*
 # QtCreator CMake
 CMakeLists.txt.user*
 
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
 # QtCreator 4.8< compilation database
 compile_commands.json
 
@@ -52,3 +60,11 @@ compile_commands.json
 *creator.user*
 
 *_qmlcache.qrc
+
+# Build folders
+/build*/
+cmake-build-*/
+
+# OS
+.DS_Store
+Thumbs.db

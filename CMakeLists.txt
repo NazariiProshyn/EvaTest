@@ -23,6 +23,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(EvaTest
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        product.h product.cpp
+        receiptitem.h receiptitem.cpp
+        receipt.h receipt.cpp
+        catalog.h catalog.cpp
+        addproductdialog.h addproductdialog.cpp addproductdialog.ui
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET EvaTest APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

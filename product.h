@@ -8,7 +8,7 @@
 class Product
 {
 public:
-    Product() = delete;
+    Product() = default;
     Product(int Id, const QString& Name, double Price);
 
     int getId() const;
